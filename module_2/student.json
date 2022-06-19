@@ -1,0 +1,49 @@
+{
+	"student_id": "ST_2003",
+	"first_name" : "David",
+	"last_name" : "Park",
+	"enrollment" :[
+		{
+			"term" :"2021_2022",
+			"gpa": "3.28",
+			"start_date":"2021-09-01",
+			"end_date":"2022_04_01"
+			"course":[
+				{
+					"course_id":"CS200",
+					"description":"Cyber Security",
+					"instructor":"Michael Scoffield",
+					"grade":"B+",
+				},
+				{
+					"course_id":"CS201",
+					"description":"Data Structure and Algorithm",
+					"instructor":"Dr. Jack Sparrow",
+					"grade":"A",
+				},
+				{
+					"course_id":"CS202",
+					"description":"Programming with Python",
+					"instructor":"Dr. Femi Falana",
+					"grade":"A",
+				},
+				
+			]
+		},
+		{
+			"term" :"2022_2023",
+			"gpa": "3.50",
+			"start_date":"2022-07-01",
+			"end_date":"2023-01-30"
+			"course":[
+				{
+					"course_id":"MT300",
+					"description":"Mathematical Method 1",
+					"instructor":"Prof. Samuel Stones",
+					"grade":"A",
+				},
+			]
+		}
+		
+	],	
+}

@@ -1,0 +1,50 @@
+{
+	"_id": "1",
+	"first_name" : "David",
+	"last_name" : "Park",
+	"date_of_birth" : "1985-10-10",
+	"username": "david123"
+	"invoice" :[
+		{
+			"_id" :"IN100",
+			"date_created": "2022-06-10",
+			"date_shipped":"2022-06-11",
+			"subtotal":"500.00"
+			"line_item":[
+				{
+					"_id":"IN100",
+					"name":"Milk",
+					"price":"100.00",
+					"quantity":"4",
+				},
+				{
+					"_id":"IN100",
+					"name":"Bread",
+					"price":"50.00",
+					"quantity":"2",
+				}
+			]
+		},
+		{
+			"_id" :"IN200",
+			"date_created": "2022-06-10",
+			"date_shipped":"2022-06-11",
+			"subtotal":"200.00"
+			"line_item":[
+				{
+					"_id":"IN200",
+					"name":"Nike_Shoe",
+					"price":"100.00",
+					"quantity":"1",
+				},
+				{
+					"_id":"IN200",
+					"name":"T_Shirt",
+					"price":"100.00",
+					"quantity":"1",
+				}
+			]
+		},
+		
+	],	
+}
