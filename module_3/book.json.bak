@@ -1,0 +1,32 @@
+{
+	"username": "Jack2001",
+	"user_id" : "100239",
+	"Role" :[
+		{
+			"Admin" :"2021_2022",
+			"Persmission":[
+				{
+					"permission_id":"1",
+					"permission_type":"Delete",
+				},
+				{
+					"permission_id":"2",
+					"permission_type":"Create",
+				},
+				{
+					"permission_id":"3",
+					"permission_type":"Update",
+				}
+			]
+		},
+		{
+			"Hr" :"2021_2022",
+			"Persmission":[
+				{
+					"permission_id":"2",
+					"permission_type":"Create",
+				}
+			]
+		},
+	]	
+}
